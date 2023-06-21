@@ -1,0 +1,303 @@
+<!DOCTYPE html><html lang="ru"><head><meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>ООО "ЛАРГУС"</title>
+<meta charset="utf-8">
+<link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic-ext,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Bad+Script&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic&subset=latin,cyrillic-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+<link href="files/css00000.css" rel="stylesheet" type="text/css">
+<link href="files/css00001.css" rel="stylesheet" type="text/css">
+<link href="files/reset000.css" rel="stylesheet" type="text/css">
+<link href="files/layout00.css" rel="stylesheet" type="text/css">
+<link href="files/style000.css" rel="stylesheet" type="text/css">
+<link href="files/colorbox.css" rel="stylesheet" type="text/css">
+<script src="files/jquery-1.js" type="text/javascript"></script>
+<script src="files/scripts0.js" type="text/javascript"></script>
+<script src="files/jquery.colorbox-min.js" type="text/javascript"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5.js"></script>
+<link rel="stylesheet" href="css/ie.css" type="text/css" media="all">
+<![endif]-->
+<!--[if lt IE 8]>
+<div style=' clear: both; text-align:center; position: relative;'>
+<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a>
+</div>
+<![endif]-->
+<script>
+$(document).ready(function()
+{
+$(".group1").colorbox({rel:'group1'});
+$(".group2").colorbox({rel:'group2', transition:"fade"});
+$(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+$(".group4").colorbox({rel:'group4', slideshow:true});
+$(".ajax").colorbox();$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+$(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
+$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+$(".inline").colorbox({inline:true, width:"50%"});
+$(".callbacks").colorbox({onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+onClosed:function(){ alert('onClosed: colorbox has completely closed'); }});
+$('.non-retina').colorbox({rel:'group5', transition:'none'})
+$('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+$("#click").click(function(){
+$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");return false;});});
+</script>
+</head>
+<body>
+<div class="glob">
+<div class="page_spinner"></div>
+<div class="headerExtra"></div>
+<div class="footerExtra"></div>
+<div class="centerHolder">
+	<header>
+		<h1><a href="index.html" id="logo">ООО "ЛАРГУС"</a></h1>
+		<div class="rightHolder">
+			<div class="followHolder">
+				<ul>
+					<li><a href="#!/pageAbout">Доставка</a><span class="color1">|</span></li>
+					<li><a href="#!/pagePartner">О компании</a><span class="color1">|</span></li>
+					<li><a href="#!/pageContacts">Контакты</a></li>
+				</ul>
+			</div>
+			<span class="text1"><font style="font-size:14px; text-transform:none; color:#fff">Тел.:&nbsp;&nbsp;</font>+ 7 (495) 137-76-54<br><font style="font-size:14px; color:#fff; text-transform:none;">Факс:&nbsp;&nbsp;</font>+ 7 (495) 137-76-55</span><br>
+			<span class="text1" style="margin-top:-1px; font-size:10px; font-weight:8px; text-transform:none; color:#fff">111024, г. Москва, ул. Авиамоторная, д. 10, стр. 2, офис 17</span><br>
+			<span class="text1" style="font-family: 'Lobster', cursive; text-transform:none; font-size:26px; color:#fff">Логистические решения</span>
+		</div>
+	</header>
+</div>
+<div class="main">
+	<div class="center">
+		<article id="content">
+			<div class="menuHolder2">
+				<nav class="menu2">
+					<ul id="menu2">
+						<li class="magLeft"><a href="#!/pageHome"><div class="iconHolder"><img src="files/menu_pic.png" alt=""></div><div class="planeHolder"></div><div class="menuText">главная</div></a></li>
+						<li><a href="#!/pageWorld"><div class="iconHolder"><img src="files/menu_pif.png" alt=""></div><div class="planeHolder"></div><div class="menuText">отследить</div></a></li>
+						<li class="with_ul"><a href="#!/pageTyr"><div class="iconHolder"><img src="files/menu_pid.png" alt=""></div><div class="planeHolder"></div><div class="menuText">оплатить</div></a></li>
+						<li><a href="#!/pageHot"><div class="iconHolder"><img src="files/menu_pie.png" alt=""></div><div class="planeHolder"></div><div class="menuText">услуги</div></a></li>
+						<li class="noBg"><a href="#!/pageTickets"><div class="iconHolder"><img src="files/menu_pig.png" alt=""></div><div class="planeHolder"></div><div class="menuText">калькулятор</div></a></li>
+					</ul>
+				</nav>
+			</div>
+			<ul>
+				<li id="pageHome">
+				<div class="splashHolder">
+					<nav class="menu">
+						<ul id="menu">
+							<li class="with_ul"><a href="#!/pageHome"><div class="mOver"></div><div class="extraHolder"><span class="mText">главная</span></div><div class="imgHolder leftP"><div class="picOut"><img src="files/s_pic1_o.png" alt=""></div><div class="picOver"><img src="files/s_pic1_p.png" alt=""></div></div></a></li>
+							<li><a href="#!/pageWorld"><div class="mOver"></div><div class="extraHolder"><span class="mText">отследить</span></div><div class="imgHolder"><div class="picOut"><img src="files/s_pic4_o.png" alt=""></div><div class="picOver"><img src="files/s_pic4_p.png" alt=""></div></div></a></li>
+							<li><a href="#!/pageTyr"><div class="mOver"></div><div class="extraHolder"><span class="mText">оплатить</span></div><div class="imgHolder"><div class="picOut"><img src="files/s_pic2_o.png" alt=""></div><div class="picOver"><img src="files/s_pic2_p.png" alt=""></div></div></a></li>
+							<li><a href="#!/pageHot"><div class="mOver"></div><div class="extraHolder"><span class="mText">услуги</span></div><div class="imgHolder"><div class="picOut"><img src="files/s_pic3_o.png" alt=""></div><div class="picOver"><img src="files/s_pic3_p.png" alt=""></div></div></a></li>
+							<li class="bgNone"><a href="#!/pageTickets"><div class="mOver"></div><div class="extraHolder"><span class="mText">калькулятор</span></div><div class="imgHolder rightP"><div class="picOut"><img src="files/s_pic5_o.png" alt=""></div><div class="picOver"><img src="files/s_pic5_p.png" alt=""></div></div></a></li>
+						</ul>
+					</nav>
+				</div>
+				</li>
+				<li id="pageTyr">
+					<div class="box">
+						<div class="containerContent" style="height:430px;">
+              <table style="height:130px">
+								<tr>
+									<td style="width:700px; height:150px;"><p style="text-align:justify">
+										<br>Оплата услуг может быть распределена между участниками договорных отношений, при этом стоимость одной услуги не может быть поделена между несколькими плательщиками.
+										<br>Пример №1
+										<br>В компании «Ларгус» клиент заказал перевозку груза из филиала в г. Москве в филиал в г. Саратове, а также доставку груза по адресу грузополучателя в г. Саратове. Вариант оплаты: грузоотправитель оплачивает услугу «Перевозка», грузополучатель оплачивает услугу «Доставка груза» или наоборот. Третье лицо может также оплатить все указанные услуги.
+										<br>Пример №2
+										<br>В компании «Ларгус» клиент заказал перевозку груза из филиала в г. Москве в филиал в г. Саратове. Больше никакие услуги он не заказывал. Оплату услуги «Перевозка» может произвести только кто-то один: либо грузоотправитель, либо грузополучатель, либо третье лицо.
+										<br>КОГДА можно оплатить
+										<br>Оплата услуг может быть произведена в любое удобное для клиента время:
+										<br>- при самостоятельной сдаче груза в филиале «Ларгус»;
+										<br>- во время транспортировки груза;
+										<br>- при получении груза в филиале «Ларгус»;
+										<br>- при адресной доставке груза получателю.</td>
+									<td style="width:10px; height:150px;">&nbsp;</td>
+									<td style="width:200px; height:150px;"><a class="group1" href="files\001.jpg" title=""><img src="files/001.jpg" width="200" style="border:5px solid #eee" title=""><br><br><a class="group1" href="files\002.jpg" title=""><img src="files/002.jpg" width="200" style="border:5px solid #eee" title=""></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li id="pageHot">
+          <div class="box">
+						<div class="containerContent" style="height:430px;">
+              <table style="height:130px">
+								<tr>
+									<td style="width:700px; height:150px;"><p style="text-align:justify">
+										Ларгус осуществляет автомобильные грузоперевозки на территории России, Армении, Республик Беларусь и Казахстан. Филиальная сеть компании охватывает более 160 городов.
+										<br><br>Служба адресной позволяет перевозить грузы не только на склады компании, но и в населенные пункты, расположенные в пределах 300 км от каждого филиала. Ряд городов, в которых нет филиалов ПЭК, находятся в пределах «льготных» маршрутов , по которым еженедельно выполняются консолидированные забор и доставка грузов. Жители таких населенных пунктов могут сэкономить от 20 до 80% стандартной стоимости перевозки. Для грузовых автомобильных перевозок мы используем крупнотоннажные еврофуры.
+										<br><br>Перевозка автомобильным транспортом от «ПЭК» состоит из этапов:
+										<br>- Адресный забор груза или прием и оформление на складе Компании «ПЭК».
+										<br>- Подготовка к автоперевозке, упаковка и маркировка грузов уникальным штрих-кодом.
+										<br>- Погрузо-разгрузочные работы на складе.
+										<br>- Выбор оптимального маршрута.
+										<br>- Перевозка груза.
+										<br>- 24-часовой спутниковый мониторинг автомобильного транспорта, выполняющего перевозку.
+										<br>- Оповещение клиентов о прибытии грузов (через Vkontakte, Viber, электронную почту или SMS-информирование).
+										<br>- Доставка груза по адресу получателя или выдача на складе филиала ПЭК.
+										<br><br></td>
+                  <td style="width:10px; height:150px;">&nbsp;</td>
+									<td style="width:200px; height:150px;"><a class="group1" href="files\IMG_20160626_133155-768x576.jpg" title=""><img src="files/IMG_20160626_133155-768x576.jpg" width="200" style="border:5px solid #eee" title=""><br><br><a class="group1" href="files\IMG-20180615-WA0056-768x576.jpg" title=""><img src="files/IMG-20180615-WA0056-768x576.jpg" width="200" style="border:5px solid #eee" title=""></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</li>
+
+				<li id="pageWorld">
+          <div class="box">
+						<div class="containerContent" style="height:430px;">
+										<link rel="stylesheet" href="https://posylka.net/css/externalwidget.min.css">
+										<div class="widget-pkge-net">
+										    <div class="widget-pkge-net-search">
+										        <!--Поле ввода трек-номера.-->
+										        <input type="text" class="widget-pkge-net-textfield" id="track-number" maxlength="40" />
+										        <!-- Кнопка для вызова метода скрипта и начала процесса отслеживания.-->
+										        <input type="button" class="widget-pkge-net-button" value="Отследить" onclick="widgetTrack()" />
+										    </div>
+										    <!-- Контейнер, в котором будет отображаться результат отслеживания посылки.-->
+										    <div class="widget-pkge-net-result" id="widget-container"></div>
+										    <div class="widget-pkge-net-help">Например: <span onclick="document.getElementById('track-number').value = this.innerText">ZA871946730HK</span></div>                            <div class="widget-pkge-net-link">Отслеживание посылок – <a href="https://posylka.net">posylka.net</a></div></div>
+										<!--Скрипт, необходимый для работы виджета. Можно вставить в конец страницы.-->
+										<script type="text/javascript" src="https://posylka.net/externalwidget.min.js"></script>
+										<script type="text/javascript">
+										function widgetTrack() {
+										        var trackNumber = document.getElementById('track-number').value;
+										        if (!trackNumber) {
+										            alert('Введите трек-номер!');
+										            return false;
+										        }
+										        PKGEExtWidget.trackBlockIntegrated({            //Обязательно. Трек-номер для отслеживания.
+										            'trackNumber': trackNumber,
+										             //Обязательно. ID контейнера, в котором будет отображаться результат отслеживания посылки.
+										            'containerId': 'widget-container',
+										             //Не обязательно. Ширина фрейма, в котором будут отображаться результаты отслеживания посылки. По-умолчанию растягивается на всю ширину контейнера.
+										            'width': 920,
+										             //Не обязательно. Высота фрейма, в котором будут отображаться результаты отслеживания посылки. Значение по-умолчанию - 370.
+										            'height': 370,
+										            //Не обязательно. Язык пользовательского интерфейса, если не задано - будет определен по настройкам браузера пользователя.
+										            'language': 'ru'
+										        });
+										}
+										</script>
+						</div>
+					</div>
+				</li>
+				<li id="pageTickets">
+            <div class="box">
+  						<div class="containerContent" style="height:430px;">
+						<iframe src="https://vozovoz.ru/widgets/calculator/?unit0=hide&color=%23ed6700&dispatch_point=e90f19de-0128-11e5-80c7-00155d903d03&destination_point=e90f1820-0128-11e5-80c7-00155d903d03&volume=0.1&weight=0.1" width="370" height="445" scrolling="no"  frameborder="0" style="margin-top:-20px"></iframe>
+  						</div>
+  					</div>
+					</li>
+          <li id="pageContacts">
+						<div class="box">
+							<div class="containerContent" style="height:430px;">
+              	<div class="col1">
+                <div class="col2 padRight4 bordR">
+										<h2 class="padBot2">Напишите нам</h2>
+    	               <div class="magBot2">
+											<form action="#" id="ContactForm">
+												<div class="success"> Запрос отправлен!&nbsp; <strong></strong></div>
+												<fieldset class="left">
+													<div class="block">
+														<label class="name"><span class="bg"><input type="text" value="Имя, Фамилия:" class="input"></span><span class="error">*Недопустимые символы в имени.</span> <span class="empty">*Обязательное поле.</span> </label>
+														<label class="email"><span class="bg"><input type="text" value="Email:" class="input"></span><span class="error">*Недопустимый E-mail адрес.</span> <span class="empty">*Обязательное поле.</span> </label>
+														<label class="phone"><span class="bg"><input type="tel" value="Телефон:" class="input"></span><span class="error">*Недопустимый номер телефона.</span> <span class="empty">*Обязательное поле.</span> </label>
+													</div>
+													<div class="block">
+														<label class="message"><span class="bg"><textarea rows="1" cols="2">Сообщение:</textarea></span><span class="error">*Слишком короткое сообщение.</span> <span class="empty">*Обязательное поле.</span> </label>
+													</div>
+													<div class="formBtn left">
+														<a href="#" data-type="submit" class="more">отправить</a>
+													</div>
+													<div class="formBtn left">
+														&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" data-type="reset" class="more">очистить</a><br><br>
+													</div>
+												</fieldset>
+											</form>
+										</div>
+									</div>
+                  <div class="col3 magLeft4">
+									<h2 class="padBot2">Как нас найти</h2>
+									<p style="margin-top:-20px;"><b>Наш адрес:</b> 111024, г. Москва, ул. Авиамоторная, д. 10, стр. 2, офис 17<br><b>Тел.:</b>  + 7 (495) 137-76-54, <b>Факс:</b>  + 7 (495) 137-76-55, E-mail: <a class="_link2" href="mailto:support@inpromtex.com">support@inpromtex.com</a></p>
+									<div class="wrapper">
+									<img src="files/map.jpg" height=280>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+     	<li id="pageAbout">
+					<div class="box">
+						<div class="containerContent" style="height:430px;">
+							<div class="col6">
+							<h2>О нас</h2>
+							<table style="height:130px">
+								<tr>
+									<td style="width:700px; height:150px;"><p style="text-align:justify">Современное состояние и существующие направления деятельности ООО "Ларгус" – это не просто накопленный с годами опыт и значительные объемы выполняемых работ, но и история верных и смелых решений. В середине 2000-х развивающаяся инфраструктура железных дорог требовала интенсивного и стабильного материально-технического обеспечения. ООО "Ларгус", основанная в 2006 году, обеспечивала поставками материалов, оборудования и инструмента подразделения ОАО «Российские железные дороги». Активную деятельность компания ведет с 2007 года. Огромный номенклатурный перечень этих групп своевременно поставляется по всей территории Российской Федерации. Профессиональная надежность работы ООО "Ларгус" обеспечила ее успешное вхождение в отрасль.
+                  Постоянное накопление опыта и знаний: изучение потребностей заказчиков, возможностей поставщиков, транспортной логистики и ценообразования разнообразных групп товаров, — все это формировало структуру развивающейся компании. Активная работа на рынке материально- технического обеспечения помогла развивать новые бизнес-контакты, узнавать новые потребности в компетенциях, что к началу 2009 года привело к осознанию необходимости создания новых, передовых направлений коммерческой деятельности Корпорации.</p></td>
+                  <td style="width:10px; height:150px;">&nbsp;</td>
+									<td style="width:200px; height:150px;"><a class="group1" href="files/01.png" title=""><img src="files/office.jpg" width="200" style="border:5px solid #eee" title=""></td>
+								</tr>
+							</table>
+							<a class="more" style="width:250px;" href="#!/pagePrivacy">Правила использования информации</a><br><br>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li id="pagePrivacy">
+					<div class="box">
+						<div class="containerContent" style="height:430px;">
+							<div class="col6">
+								<p style="text-align:justify">1. Копирование информации, размещенной на данном сайте (равно как цитирование в средствах массовой информации тех или иных сведений либо сообщений, содержащиемя в информационных разделах сайта) допускается при условии указания ссылки на источник такой информации.<br>2. Информационные ресурсы, непосредственно доступные на данном сайте, находятся в частной собственности. Указанные информационные ресурсы содержат информацию открытого доступа, которая не может рассматриваться как конфиденциальные сведения, подлежащие защите в соответствии с законодательством о государственной тайне. Указанная информация также не может рассматриваться как объект для использования в коммерческих целях.<br>3. При переходе по гиперссылкам, размещенным на сайте, на внешние по отношению к данной сайту информационные ресурсы пользователь покидает данный сайт. Редакция данного сайта не несет ответственности за достоверность сведений, составляющих внешние по отношению к данному сайту информационные ресурсы, а также за актуализацию и периодичность обновления соответствующей информации в их составе.<br>4. Лица и/или организации, желающие разместить гиперссылку на данном сайте в целях использования в качестве элемента информационной структуры своего интернет-ресурса (например, в каталоге, предусматривающем реконструкцию текста, либо в виде самостоятельной тематической рубрики и т.п.), а также в виде графическогй ссылки (баннера), в обязательном порядке уведомляют об этом администратора сайта.<br>5. При размещении графических ссылок (баннеров) могут использоваться только графические элементы, согласованные с администратором сайта.<br>6. Владельцы сетевых ресурсов, разместившие гиперссылки на данный сайт в целях, указанных в п. 5: не вправе изменять стандартный вид окна программы просмотра (браузера) или иным способом ограничивать либо модифицировать представление содержания данного сайта, не вправе указывать недостоверную информацию, связанную с предоставлением гиперссылки на данный сайт, не вправе размещать на интернет-страницах, содержащих гиперссылки на данный сайт, информационные или иные материалы, не соответствующие целям и принципам функционирования данного сайта.</p>
+								<p style="text-align:justify">© 2020 г. Все права на материалы, находящиеся на сайте, охраняются в соответствии с законодательством РФ, в том числе, об авторском праве и смежных правах.</p>
+								<a class="more" href="javascript:history.back();">Назад</a>
+							</div>
+						</div>
+					</div>
+        </li>
+       	<li id="pagePartner">
+					<div class="box">
+						<div class="containerContent" style="height:430px;">
+							<div class="col6">
+								<h2 class="padBot2">Ресурсы</h2>
+                <center><img src="files/rt.png" height=300></center>
+							</div>
+						</div>
+					</div>
+				</li>
+        <li id="pageTen">
+          <div class="box">
+						<div class="containerContent" style="height:430px;">
+							<div class="col6">
+							<h2>Карьера</h2>
+							<table style="height:130px">
+								<tr>
+									<td style="width:700px; height:150px;"><p style="text-align:justify">
+                    Работа у ООО "Ларгус" — это отличные перспективы для профессионального развития и карьерного роста в одной из самых динамично развивающихся компаний в России.
+                    Принципы работы с персоналом в Корпорации: поддержание достойного уровня заработной платы, обеспечение безопасных и комфортных условий труда, отвечающих требованиям и высоким стандартам качества, вовлечение сотрудников, в том числе и материальная и нематериальная поддержка инициатив сотрудников направленных на повышение эффективности компании, активное участие сотрудников в программах профессионального развития и переподготовки, совершенствование процедур социальной адаптации и максимального погружения в деятельность Компании, сотрудничество с образовательными учреждениями – реализация программы «ССУЗ-ВУЗ-Предприятие»;
+                    Компания ориентирована на использование мирового передового опыта, в связи с чем мы уделяем большое внимание вопросу подготовки квалифицированных кадров, совершенствуя уровень профессионализма наших сотрудников.
+                    Наша цель — быть лучшими в своей отрасли!</p></td>
+                  <td style="width:10px; height:150px;">&nbsp;</td>
+									<td style="width:200px; height:150px;"><a class="group1" href="files\1dYA2RNabl4.jpg" title=""><img src="files/kadr.jpg" width="200" style="border:5px solid #eee" title=""></td>
+								</tr>
+							</table>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</article>
+	</div>
+</div>
+</div>
+<script>
+$(window).load(function() {
+	$('.page_spinner').fadeOut();
+	$('body').css({overflow:'hidden'})
+})
+</script>
+</body>
+</html>
